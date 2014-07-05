@@ -80,7 +80,7 @@ module.exports = function(grunt) {
 					mangle: false
 				},
 				build: {
-					files:  {'dist/angular-woozle.min.js' : [
+					files:  {'angular-woozle.min.js' : [
 						'services/*.js']}
 				}
 			}/*,
