@@ -5,6 +5,7 @@
 		"Patrick Roos"
 	],
 	"description": "An angular module for Woozle",
+	"main":"./dist/angular-woozle.min.js",
 	"keywords": [
 	],
 	"license": "MIT",
