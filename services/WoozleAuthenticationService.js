@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('angular-woozle')
-    .factory('AuthenticationService', function (Restangular) {
+angular.module('woozle')
+    .factory('WoozleAuthenticationService', function (Restangular) {
 
         return {
             login: function(user, success, failed) {

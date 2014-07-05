@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('angular-woozle')
-    .factory('LoginContextService', ['$rootScope', 'Restangular', '$location', function ($rootScope, Restangular, $location) {
+angular.module('woozle')
+    .factory('WoozleLoginContextService', ['$rootScope', 'Restangular', '$location', function ($rootScope, Restangular, $location) {
 		var loginContext = {};
 		loginContext.loggedIn = false;
 		loginContext.loginUser;

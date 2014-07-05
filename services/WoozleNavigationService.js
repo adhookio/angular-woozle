@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('angular-woozle')
-    .factory('NavigationService', function (Restangular) {
+angular.module('woozle')
+    .factory('WoozleNavigationService', function (Restangular) {
 
         return {
             getNavigation: function (success, error) {

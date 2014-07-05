@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('angular-woozle')
-    .factory('MandatorSelectionService', function (Restangular) {
+angular.module('woozle')
+    .factory('WoozleMandatorSelectionService', function (Restangular) {
 
         return {
             getAssignedMandators: function (success, error) {
