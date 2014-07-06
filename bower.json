@@ -1,6 +1,6 @@
 {
 	"name": "angular-woozle",
-	"version": "0.0.9",
+	"version": "0.0.10",
 	"main":"./angular-woozle.min.js",
 	"authors": [
 		"Patrick Roos"
