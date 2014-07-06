@@ -6,8 +6,8 @@ angular.module('woozle')
         return {
             getAssignedMandators: function (success, error) {
                 return Restangular.one('api/mandatorsForSelection?format=json')
-                    .getList()
-                    .then(success, error);
+                                  .getList()
+                                  .then(success, error);
             },
             selectMandator: function (mandator, success, failed) {
                 var mandatorSelection = Restangular.all('api/mandatorselect?format=json');
