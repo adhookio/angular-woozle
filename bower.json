@@ -1,6 +1,6 @@
 {
 	"name": "angular-woozle",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"main":"./angular-woozle.min.js",
 	"authors": [
 		"Patrick Roos"
@@ -17,11 +17,11 @@
 		"tests"
 	],
 	"dependencies": {
-		"angular":"~1.2.0",
-		"angular-sanitize":"~1.2.0",
-		"angular-route":"~1.2.0",
-		"angular-touch":"~1.2.0",
-		"angular-animate":"~1.2.19",
+		"angular":"~1.2.16",
+		"angular-sanitize":"~1.2.16",
+		"angular-route":"~1.2.16",
+		"angular-touch":"~1.2.16",
+		"angular-animate":"~1.2.16",
 		"restangular" : "~1.4.0"
 	},
 	"devDependencies": {
