@@ -3,7 +3,7 @@
 angular.module('woozle')
     .controller('WoozleLoginController',
         ['$rootScope', '$scope', '$location', '$window',
-            'WoozleAuthenticationService', 'WoozleMandatorSelectionService', 'WoozleLoginContextService', '$modal',
+            'WoozleAuthenticationService', 'WoozleMandatorSelectionService', 'WoozleLoginContextService',
             function ($rootScope, $scope, $location, $window,
                 AuthenticationService, MandatorSelectionService, LoginContextService, $modal) {
 
@@ -84,7 +84,9 @@ angular.module('woozle')
             };
 
             $scope.openLoginErrorAlert = function(message) {
-                $scope.showProgress = false;
+
+            	//Todo let the user handle the error.
+                /*$scope.showProgress = false;
                 MessageAlertCtrl.$inject = ['$scope', '$modalInstance', 'title', 'message'];
                 var modalInstance = $modal.open({
                     templateUrl: 'views/alerts/errorAlert.html',
@@ -98,6 +100,6 @@ angular.module('woozle')
                         return message;
                       }
                     }
-                });
+                });*/
           };
 }]);
