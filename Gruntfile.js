@@ -81,7 +81,7 @@ module.exports = function(grunt) {
 				},
 				build: {
 					files:  {'angular-woozle.min.js' : [
-						'services/*.js']}
+						'woozle/*.js']}
 				}
 			}/*,
 			karma: {
