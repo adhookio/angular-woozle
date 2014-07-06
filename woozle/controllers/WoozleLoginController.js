@@ -3,7 +3,7 @@
 angular.module('woozle')
     .controller('WoozleLoginController',
         ['$rootScope', '$scope', '$location', '$window',
-            'AuthenticationService', 'MandatorSelectionService', 'LoginContextService', '$modal',
+            'WoozleAuthenticationService', 'WoozleMandatorSelectionService', 'WoozleLoginContextService', '$modal',
             function ($rootScope, $scope, $location, $window,
                 AuthenticationService, MandatorSelectionService, LoginContextService, $modal) {
 
