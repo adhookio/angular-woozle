@@ -30,3 +30,8 @@ angular-woozle provides the following services
 * WoozleLoginContextService
 * WoozleMandatorSelectionService
 * WoozleNavigationService
+
+## Controllers
+angular-woozle provides the following controllers
+
+* WoozleLoginController
