@@ -16,9 +16,17 @@ angular
     'woozle'
   ]);
   
-// Use the services in your controller
+// Use the services of angular-woozle in your controller
 angular.module('YourModule')
     .controller('YourController',  ['$scope', 'WoozleLoginContextService', 'WoozleNavigationService',
         function ($scope, LoginContextService, NavigationService) { });
 
 ```
+
+## Services
+angular-woozle provides the following services
+
+* WoozleAuthenticationService
+* WoozleLoginContextService
+* WoozleMandatorSelectionService
+* WoozleNavigationService
