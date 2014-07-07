@@ -56,7 +56,7 @@ angular.module('woozle')
 		};
 
 		loginContext.getLoginContext = function (success, error) {
-            return Restangular.one('api/backendLoginContext?format=json').getList().then(success, error);
+            return Restangular.one('api/backendLoginContext?format=json').get().then(success, error);
         };
 
 		return loginContext;
