@@ -10,7 +10,7 @@ bower install https://github.com/fingersteps/angular-woozle.git
 ## Usage
 ```javascript
 
-// Your app.js
+// Registering the woozle module in your module (app.js)
 angular
   .module('YourModule', [
     'woozle'
