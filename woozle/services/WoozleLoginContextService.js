@@ -41,7 +41,7 @@ angular.module('woozle')
 
 		loginContext.refreshLoginContext = function() {
 			var that = this;
-			Restangular.one('api/backendLoginContext?format=json').one()
+			Restangular.one('api/backendLoginContext?format=json').get()
 					.then(function(loginContext) {
 							console.log("Received LoginContext");
 							console.log(loginContext);
