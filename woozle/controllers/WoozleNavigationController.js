@@ -8,6 +8,7 @@ angular.module('woozle')
         LoginContextService.refreshLoginContext();
 
         $scope.$on('loginContextChanged', function() {
+            console.log("Receiving broadcast.");
 
             var isLoggedIn = LoginContextService.isLoggedIn();
             if(isLoggedIn) {
