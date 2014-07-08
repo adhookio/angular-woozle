@@ -35,12 +35,13 @@ angular.module('woozle')
 		};
 
 		loginContext.broadcastLoginContextChanged = function() {
+		  console.log('broadcast');
 		  $rootScope.$broadcast('loginContextChanged');
 		};
 
 		loginContext.refreshLoginContext = function() {
 			var that = this;
-			Restangular.one('api/backendLoginContext?format=json').getList()
+			Restangular.one('api/backendLoginContext?format=json').one()
 					.then(function(loginContext) {
 							console.log("Received LoginContext");
 							console.log(loginContext);
